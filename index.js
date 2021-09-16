@@ -14,7 +14,7 @@ client.on('message', (message) => {
     message.reply('온라인 확인!');
   }
     
-  } else if(message.content == '!help') {
+ else if(message.content == '!help') {
     let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     let commandList = [
       {name: '!ping', desc: '현재 핑 상태 (제작중)'},
