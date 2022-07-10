@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = process.env.token;
-var port = process.env.PORT || 3000, function(){
+var port = process.env.PORT || 8080, function(){
   console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 
