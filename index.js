@@ -4,7 +4,7 @@ const token = process.env.token;
 var port = process.env.PORT || 8080;
 
 client.on('ready', () => {
-  console.log('온라인!');
+  console.log('Ready!');
   client.user.setPresence({ game: { name: '도움말 명령어는 !help' }, status: 'online' })
 });
 
